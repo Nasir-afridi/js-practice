@@ -1,0 +1,74 @@
+1: word vs keyword: 
+```word```: aik aisa word hota hai jska js mein koi mtlb  nahe hota.
+```keyword```: aik aisa word hai jiska js mein koi mtlb ho.
+
+2: var, const, let.
+
+3: hoisting: variable ko bananay sy paihly osko use krskty hain.
+
+4: types in js: primitive and reference
+```primitive``` : jiski value copy krny prr real copy hojaye wo value primitive type value hoti hai.
+                  number, string, booleans, undefined, null.
+ ```reference``` :aise koi bhi value jisko copy krny prr real copy nahe hota balky usmein value ka refernce pass hojata
+                  hai usay ham reference value kaihty hain. ismein teeno bracket walay hoty hain {}, [], ().
+
+5: conditionals: jb bhe baat agrr magar prr aayge to conditionals ka use hoga.if, else-if, else.
+
+6: loops: iska mtlb seeda seeda repeat krna hai.
+    ``` for and while loop```.
+
+7: functions: code ko likh krr osay koii naam daina orr zroorat prny prr osay reuse krna. ye mainly teen kaamo kkk liye hota hai.
+    1. jbb ap apna code future mein chalana chahty ho.
+    2. jbb ap apna code reuse krna chahty ho.
+    3. har dafa different data kk sath code chalana chahty ho.
+
+8: Array: variable mein aik sy zyada value store krny kkk liyye array ka use hota hai.
+
+9: push: array mein value add krny kk liye hota hai or value array kk akhir mein add hote hai.
+   pop: array sy value remove krny kk liye hota hai orr value array kk akhir sy remove hote hai.
+   unshift: array kk shuru mein value add krny kk liye hota hai unshift.
+   shift: array kk shuru sy remove krny kk liye hota hai.
+   splice: array kk center sy value remove krny kk liye hota hai.
+
+10: objects: aik specific cheez ki details ko hold krna
+    Methods: wo property hote hai jiski value function hote hai.
+    
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+                                                        Advanced Javascript topics.
+
+11: var, let, const difference: var es5 Javascript mein hai ye function scoped hai ye khd ko add krta hai window object mein.. 
+let, const, es6 yani new Javascript mein hain. ye dono braces scoped hain ye khd ko window object mein add nahe krty.
+
+12: browser context api, stack, heep memory.---> khd study krna pryga.
+
+13: execution context: it is a container where the function's code is executed and it's created whenever a function is called.
+    it contains three thing
+    1. variables
+    2. functions.
+    3. lexical environment.
+
+14: lexical environment: ye aik chart hota hai jismein ye likha hota hai kk ap particular function ki kin cheezon ko access krskty
+    hain or kinko ni. mtlb kk its hold its own scope and scope chain.
+
+15: how to copy reference values: agrr a ki value b mein copy krne ho to aisy hoga
+                            var a = [1, 2, 3, 4, 5, 6];
+                            var b = [...a];
+    agrr b syy aik value hataingy pop ka use krky to wo sirf b sy hatyge a sy nahe hatayge.
+
+16: truthy & falsy values: js mein kuch be likho to wo mainly two condition mein sy kisi aik meinsy belong krta hai truthy ya falsy.
+    falsy value ye hai : 0, false, undefined, null, NaN, document.all baki saab falsy values hain.
+
+17: forEach loop: ye loop sirf array prr use hota hai. jb be ek array ho to array kk liye use mein foreach loop ayga.ye kbhi be by default
+    array mein change nahe krta wo apko changes krky daita hai array ki temporary copy prr jiski wjah sy array hamesha same rhta hai.
+
+18: forIn loop: object pr loop krny kk liye use hota hai forIn loop.
+
+19: callback functions: 
+
+20: first-class-functions: js mein ham function ko as a value be save krskty hain mtlb functions ko aik variable mein be store krskty hain.
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+                                                                DOM Learn what matters
+
+21: DOM --> stand for document object model. 
+
+22: 4 pillars of DOM --> 1. selection of an element, 2. changing HTML, 3. changing css 4. Event listener.
