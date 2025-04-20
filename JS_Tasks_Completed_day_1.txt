@@ -1,0 +1,8 @@
+
+1. Reverse a String
+2. Find Maximum in Array
+3. Check if a Number is Prime
+4. Convert Celsius to Fahrenheit
+5. Count Vowels in a String
+6. Check if a String is Palindrome
+7. Reverse a Number
