@@ -52,8 +52,9 @@
         }
     }
     console.log(vowelsCount);
-    */
+    
 
+                    07.
     let string = 'madam';
     let reverse = string.split('').reverse().join('');
 
@@ -63,3 +64,6 @@
     }else{
         console.log('not palindrome')
     }
+    */
+
+    
