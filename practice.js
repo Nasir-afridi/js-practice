@@ -28,8 +28,15 @@
         } else{
             console.log('Not prime')
         }
-    */
 
+  
+                    04.
     let number = 123456;
     let reverse = number.toString().split('').reverse().join('');
     console.log(reverse)
+    */
+
+
+    let celsuis = 25;
+    let fahernheit = (celsuis * 9/5) + 32
+    console.log(fahernheit)
