@@ -40,9 +40,9 @@
     let celsuis = 25;
     let fahernheit = (celsuis * 9/5) + 32
     console.log(fahernheit)
-     */
+    
 
-                   
+                    06.
     let string = 'nasir khan';
     let vowelsCount = 0;
     let vowel = 'aeiouAEIOU';
@@ -52,6 +52,14 @@
         }
     }
     console.log(vowelsCount);
-   
+    */
 
-   
+    let string = 'madam';
+    let reverse = string.split('').reverse().join('');
+
+
+    if(reverse === string){
+        console.log('palindrome');
+    }else{
+        console.log('not palindrome')
+    }
