@@ -34,9 +34,24 @@
     let number = 123456;
     let reverse = number.toString().split('').reverse().join('');
     console.log(reverse)
-    */
+   
 
-
+                    05.
     let celsuis = 25;
     let fahernheit = (celsuis * 9/5) + 32
     console.log(fahernheit)
+     */
+
+                   
+    let string = 'nasir khan';
+    let vowelsCount = 0;
+    let vowel = 'aeiouAEIOU';
+    for(let i = 0; i < string.length; i++) {
+        if(vowel.includes(string[i])){
+            vowelsCount++;
+        }
+    }
+    console.log(vowelsCount);
+   
+
+   
