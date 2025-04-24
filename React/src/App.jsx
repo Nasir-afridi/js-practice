@@ -1,25 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from './button';
 import Counter from './counter';
+import Input from './input';
 import './App.css'
 
 function App() {
-  function submit(q) {
-   q.preventDefault();
-    console.log('first');
-  }
   return (
     <>
       <Counter></Counter>
       <Button></Button>
-      <form onSubmit={(q)=>{
-        submit(q)
-      }}><input type="text" />
-      <button type="submit">submit</button></form>
-      
+      <Input></Input>
     </>
   )
 }
 
 export default App;
-
