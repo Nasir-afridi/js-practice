@@ -30,4 +30,4 @@ const counter = () => {
   )
 }
 
-export default counter
+export default counter;
