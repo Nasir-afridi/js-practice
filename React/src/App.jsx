@@ -7,9 +7,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <Counter></Counter>
-      <Button></Button>
-      <Input></Input>
+      <Counter />
+      <Button />
+      <Input />
     </>
   )
 }
